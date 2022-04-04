@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  
+}
+body{
+    background: #f0f2f5;
+}
+.alinhamento{
+    padding-right: 80px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+    display: flex;
+    padding-top: 82px; 
+
+}
+.img{
+    width: 300px;
+    padding: 112px 0 16px;
+}
+img{
+    height: 106px;
+    margin: -28px;
+}
+
+.font{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+
+}
+.container-form{
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    text-align: center;
+}
+
+form{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.email{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #ccd0d5;
+}
+.senha{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #ccd0d5;
+}
+.espa{
+    font-size: 17px;
+    width: 364px;
+    display: inline-block;
+    font-size: 14px;
+    margin: auto;
+    padding: 6px 0;
+    width: 302px;
+    font-size: 17px;
+    width: 364px;
+}
+.botao-a{
+    padding-top: 6px;
+}
+.botao{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.link{
+    margin-top: 16px;
+}
+.a{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.linha{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.botao-verde{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-weight: bold
+}
+.cere{
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    margin-top: 28px;
+    text-align: center;
+}
+.text{
+    font-weight: 600;
+    color: inherit;
+}
+.container-for{
+    padding: 20px 0 28px;
+    width: 396px;
+    text-align: center;
+}
